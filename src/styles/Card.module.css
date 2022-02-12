@@ -1,0 +1,12 @@
+.card{
+    
+}
+
+.card img{
+    width: 150px;
+    object-fit: cover;
+}
+
+.Bitcoin{
+    background-color: rgb(255, 214, 138);
+}
