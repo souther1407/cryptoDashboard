@@ -11,7 +11,7 @@ class Cards extends react.Component{
 
                 {this.props.currencies.map(c=>{
                     
-                    return <Card key={c.id} name={c.name} current_price={c.current_price} image={c.image} />
+                    return <Card dif={c.price_change_percentage_24h} key={c.id} id={c.id} name={c.name} current_price={c.current_price} image={c.image} />
                 })}
 
             </div>

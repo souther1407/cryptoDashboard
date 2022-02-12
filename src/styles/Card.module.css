@@ -1,12 +1,132 @@
 .card{
+    padding: 10px 15px;
+    border-radius: 10px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444444;
+}
+
+
+.alza,.baja{
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid blueviolet;
+}
+.alza{
+    
+    color: rgb(66, 231, 66);
+   
+}
+.baja{
+    
+    color: rgb(216, 2, 2);
     
 }
 
+.desc{
+    
+}
 .card img{
     width: 150px;
     object-fit: cover;
 }
 
-.Bitcoin{
-    background-color: rgb(255, 214, 138);
+.card p{
+    text-align: center;
+}
+
+
+
+.bitcoin{
+   background-color: rgb(253, 227, 177);
+   box-shadow: 3px 3px 0 rgb(253, 227, 177);
+}
+
+.ethereum{
+    background-color: rgb(179, 149, 207);
+}
+
+.tether{
+    background-color: #96dac9;
+}
+
+.tether img{
+    position: relative;
+    top: 15px;
+}
+
+.binancecoin{
+    background-color: #f1d07c;
+}
+
+.usd-coin{
+    background-color: #7fa1c7;
+}
+
+.ripple{
+    background-color: rgb(228, 228, 228);
+}
+
+.cardano{
+    background-color: #a9bdda;
+}
+.solana{
+    background-image: linear-gradient(to bottom left,#2CD8BC,#8B4FF6);
+    color: aliceblue;
+}
+.terra-luna{
+    background-image: linear-gradient(to bottom right,#002F72,#FFD952);
+    color:aliceblue;
+}
+
+.polkadot{
+    background-color: #e48cbb;
+}
+
+.avalanche-2{
+    background-color: #eca0a0;
+}
+
+.dogecoin{
+    background-color: #bbb18b;
+}
+
+.binance-usd{
+    background-color: #f7e096;
+}
+
+.shiba-inu{
+    background-image: linear-gradient(to bottom right,rgb(248, 64, 64),#f8b63b);
+    color: aliceblue;
+}
+
+.crypto-com-chain{
+    background-image: linear-gradient(to bottom right,#1c2e69,#444f68);
+    color: aliceblue;
+}
+
+.matic-network{
+background-color: #b99de9;
+}
+
+.terrausd{
+ background-image: linear-gradient(to bottom left,#6188E2,#a8b8df);
+}
+
+.wrapped-bitcoin{
+    background-image:linear-gradient(to top,black,white);
+    color: aliceblue;
+}
+
+.dai{
+    background-color: #f7d896;
+}
+
+.litecoin{
+    background-color: #cecdcd;
 }

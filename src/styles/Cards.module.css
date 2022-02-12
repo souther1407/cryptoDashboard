@@ -1,4 +1,14 @@
 .cards{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:560px) {
+
+    .cards{
+        justify-content: center;
+    }
+    
 }
